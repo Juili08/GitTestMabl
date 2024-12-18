@@ -19,3 +19,4 @@ jobs:
         with:
           application-id: bA7pKxy2ROhoNKoOUgmxLw-a
           environment-id: afhRPUOL8YBA8Rv07y108w-e
+          plan-labels: GIT_Test
