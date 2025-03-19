@@ -1,11 +1,15 @@
-on: [push]
+on: 
+ workflow_dispatch:
+      inputs:
+        plans:
+          description: 'enter the lables which you want to run'
 
 name: mabl
-
 jobs:
-  test:
-    name: mabl Test
+  deploy:
     runs-on: ubuntu-latest
+    name: mabl Test
+  
     steps:
       - uses: actions/checkout@v4
 
