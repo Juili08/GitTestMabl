@@ -1,8 +1,12 @@
 on: 
+ schedule:
+    # This cron syntax runs at midnight UTC every day
+    - cron: '45 15 * * *'
  workflow_dispatch:
       inputs:
         plans:
-          description: 'enter the lables which you want to run'
+          description: 'Mabl Deployment to run'
+          default: 'ZS - Test'
 
 name: mabl
 jobs:
