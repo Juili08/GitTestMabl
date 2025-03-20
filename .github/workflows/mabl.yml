@@ -6,7 +6,7 @@ on:
       inputs:
         plans:
           description: 'Mabl Deployment to run'
-          default: 'ZS - Test'
+          default: 'GIT_Test'
 
 name: mabl
 jobs:
