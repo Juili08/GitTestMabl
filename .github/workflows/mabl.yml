@@ -5,7 +5,7 @@ on:
  workflow_dispatch:
       inputs:
         plans:
-          description: 'Mabl Deployment to run'
+          description: 'Mabl Test Plan to run'
           default: 'GIT_Test'
 
 name: mabl
