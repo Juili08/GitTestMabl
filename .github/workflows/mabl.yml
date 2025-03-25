@@ -1,7 +1,7 @@
 on: 
  schedule:
     # This cron syntax runs at midnight UTC every day
-    - cron: '*/10 * * * *'
+    - cron: '*/30 * * * *'
  workflow_dispatch:
       inputs:
         plans:
